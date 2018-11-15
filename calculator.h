@@ -4,8 +4,9 @@
 class Calculator
 {
 	public:
-		int Add (double, double);
-		int Sub (double, double);
+		int Add (double, double); // Збережено (double, double)
+		int Sub (double, double); // Збережено Sub
+		int Mul (double, double); // Додано Mul
 };
 
 #endif//CALCULATOR_H
