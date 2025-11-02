@@ -12,5 +12,15 @@ int Calculator::Sub (double a, double b)
 
 int Calculator::Mul (double a, double b)
 {
-	return a * b + 0.5; // Збережено реалізацію Mul з поправкою на табуляцію
+	return a * b + 0.5;
+}
+
+int Calculator::Div (double a, double b) //ВЛАСНЕ ВИПРАВЛЕННЯ
+{
+	if (b == 0) {
+		
+		return 0; 
+	}
+	// Ділення з округленням (використовуємо +0.5 для округлення до найближчого цілого)
+	return (a / b) + 0.5; 
 }

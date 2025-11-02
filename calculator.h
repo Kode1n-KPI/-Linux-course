@@ -4,9 +4,10 @@
 class Calculator
 {
 	public:
-		int Add (double, double); // Збережено (double, double)
-		int Sub (double, double); // Збережено Sub
-		int Mul (double, double); // Додано Mul
+		int Add (double, double);
+		int Sub (double, double);
+		int Mul (double, double);
+		int Div (double, double); //ВЛАСНЕ ВИПРАВЛЕННЯ
 };
 
-#endif//CALCULATOR_H
+#endif
